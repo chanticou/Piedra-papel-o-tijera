@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.content {
+    width: 80%;
+    background-color: rgb(196, 127, 0);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px rgb (0, 0, 0, .5);
+
+}
+
+
+.content-play {
+    display: flex;
+    border-color: 10px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+
+.content-play .player {
+    text-align: center;
+}
+
+.machine{
+    text-align: center;
+}
+
+.player-img,
+.machine-img {
+    width: 50%;
+    height: 50%;
+    margin-right: 10px;
+
+}
+
+h2 {
+    text-align: center;
+
+}
+
+
+/*Content image*/
+.content-img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    cursor: pointer;
+
+
+}
+
+.content-img img {
+    width: 70%;
+    height:70%;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+.content-play .count-player, .count-machine{
+    text-align: center;
+    font-size: 50px;;
+}
+
+/*RESULT*/
+
+.result h2{
+    color: palegoldenrod;
+}
+
+.result{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    margin:10px 0 10px 0;
+}
+.result-option{
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    margin:10px 0 10px 0;
+}
+
+
+.btn-rock, .btn-papper, .btn-scissor{
+    background-color: rgb(196, 127, 0);
+    outline:none;
+    border:0;
+}
+
+button{
+    outline:none;
+    border:0 ;  
+}
