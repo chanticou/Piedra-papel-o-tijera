@@ -11,8 +11,7 @@
     width: 80%;
     background-color: rgb(196, 127, 0);
     margin: auto;
-
-   border: 5px solid black;
+    border: 5px solid black;
     box-shadow: 5px 5px 5px rgb (0, 0, 0, .5);
 
 }
@@ -23,14 +22,14 @@
     border-color: 10px solid black;
     justify-content: center;
     align-items: center;
-    flex-direction: row;  
+    flex-direction: row;
     margin-top: 10px;
-    flex-wrap:wrap;
-    
+    flex-wrap: wrap;
+
 
 }
 
-.player  .machine{
+.player .machine {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -65,47 +64,52 @@ h2 {
 
 }
 
+/*IMAGES*/
 .content-img img {
     width: 70%;
-    height:70%;
+    height: 70%;
     align-items: center;
     cursor: pointer;
 
 }
 
-
-.count-player , .count-machine {
-    margin:auto;
+/*COUNT*/
+.count-player,
+.count-machine {
+    margin: auto;
     font-size: 80px;
 }
 
 /*RESULT*/
 
-.result h2{
+.result h2 {
     color: palegoldenrod;
 }
 
-.result{
+.result {
     text-align: center;
     font-size: 40px;
-    color:white;
-    margin:10px 0 10px 0;
+    color: white;
+    margin: 10px 0 10px 0;
 }
-.result-option{
+
+.result-option {
     text-align: center;
     font-size: 40px;
-    color:white;
-    margin:10px 0 10px 0;
+    color: white;
+    margin: 10px 0 10px 0;
 }
 
 
-.btn-rock, .btn-papper, .btn-scissor{
+.btn-rock,
+.btn-papper,
+.btn-scissor {
     background-color: rgb(196, 127, 0);
-    outline:none;
-    border:0;
+    outline: none;
+    border: 0;
 }
 
-button{
-    outline:none;
-    border:0 ;  
+button {
+    outline: none;
+    border: 0;
 }

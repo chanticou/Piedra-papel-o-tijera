@@ -97,7 +97,7 @@ const calcResult = (userOption, machineOption) => {
         count_player++
         countPlayer.textContent=count_player
         countMachine.textContent=count_machine
-        textResult.innerHTML = 'YOU WIN'
+        textResult.innerHTML = 'YOU WIN!!!'
 
 
 
@@ -105,14 +105,14 @@ const calcResult = (userOption, machineOption) => {
         count_player++
         countPlayer.textContent=count_player
         countMachine.textContent=count_machine
-        textResult.innerHTML = 'YOU WIN'
+        textResult.innerHTML = 'YOU WIN!!!'
 
 
     } else if (userOption === ROCK && machineOption === SCISSOR) {
         count_player++
         countPlayer.textContent=count_player
         countMachine.textContent=count_machine
-        textResult.innerHTML = 'YOU WIN'
+        textResult.innerHTML = 'YOU WIN!!!'
 
 
     } else {
