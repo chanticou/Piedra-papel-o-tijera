@@ -22,7 +22,7 @@ countMachine.innerHTML = 0
 
 
 //INNERHTML
-choiseOption.innerHTML = 'Choise an option!'
+choiseOption.innerHTML = '!Choise an option!'
 
 //Variables
 const ROCK = 0
@@ -90,14 +90,14 @@ const calcResult = (userOption, machineOption) => {
     if (userOption === machineOption) {
         countPlayer.textContent=count_player
         countMachine.textContent=count_machine
-        textResult.innerHTML = 'YOU TIE'
+        textResult.innerHTML = '¡YOU TIED!'
 
 
     } else if (userOption === PAPPER && machineOption === ROCK) {
         count_player++
         countPlayer.textContent=count_player
         countMachine.textContent=count_machine
-        textResult.innerHTML = 'YOU WIN!!!'
+        textResult.innerHTML = '¡¡¡YOU WIN!!!'
 
 
 
@@ -105,14 +105,14 @@ const calcResult = (userOption, machineOption) => {
         count_player++
         countPlayer.textContent=count_player
         countMachine.textContent=count_machine
-        textResult.innerHTML = 'YOU WIN!!!'
+        textResult.innerHTML = '¡¡¡YOU WIN!!!'
 
 
     } else if (userOption === ROCK && machineOption === SCISSOR) {
         count_player++
         countPlayer.textContent=count_player
         countMachine.textContent=count_machine
-        textResult.innerHTML = 'YOU WIN!!!'
+        textResult.innerHTML = '¡¡¡YOU WIN!!!'
 
 
     } else {
@@ -120,7 +120,7 @@ const calcResult = (userOption, machineOption) => {
         count_machine++
         countMachine.textContent=count_machine
         countPlayer.textContent=count_player
-        textResult.innerHTML = 'YOU LOSE'
+        textResult.innerHTML = 'YOU LOST'
 
     }
 }
