@@ -67,8 +67,8 @@ h2 {
 
 /*IMAGES*/
 .content-img img {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 100%;
     align-items: center;
     cursor: pointer;
 
@@ -110,7 +110,3 @@ h2 {
     border: 0;
 }
 
-button {
-    outline: none;
-    border: 0;
-}
